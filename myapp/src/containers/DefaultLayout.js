@@ -21,7 +21,7 @@ class DefaultLayout extends Component {
     return (
       <div>
         <Header history={this.props.history} />
-        <main className="pt-5 mt-4 ml-2">
+        <main className="pt-5 mt-4 mx-2">
           <Suspense fallback={<SpinnerPage />}>
             <Switch>
               {routes.map((route, idx) => {
